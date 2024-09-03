@@ -9,14 +9,6 @@ class HitApi
     protected array $payload = [];
     protected string $method = 'GET';
 
-<<<<<<<<<<<<<<  ✨ Codeium Command ⭐  >>>>>>>>>>>>>>>>
-    /**
-     * Creates a new instance of the HitApi class with the given $subUrl appended to the BASE_API_URL.
-     *
-     * @param string $subUrl
-     * @return static
-     */
-<<<<<<<  aae6517f-8c22-4a6c-8c89-a02160067cb8  >>>>>>>
     public static function to(string $subUrl): self
     {
         $instance = new self();
